@@ -86,7 +86,9 @@ describe HashMap do
       hash.each do |k, v|
         result << [k, v]
       end
-      expect(result.sort).to eq(goal)
+      p result
+       expect(result.sort).to eq(goal)
+
     end
 
     it "includes Enumerable module" do
